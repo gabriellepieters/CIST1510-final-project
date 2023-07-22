@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+/*homepage background image*/
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/camp.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/*navbar*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    position: fixed;
+    
+}
+ul li{
+    display: inline-block;
+}
+/*navbar menu style*/
+ul li a{
+    text-decoration:underline;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease
+}
+/*point style*/
+ul li a:hover{
+    background-color:teal;
+    color: white;
+}
+/*home buttom active*/
+ul li.active a{
+    background-color: teal;
+    color: white;
+}
+/*part of navbar*/
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*homepage title,par,button*/
+.content{
+    width: 100%;
+    position: relative;
+    top: 15%;
+    color: #fff;
+}
+.content .par{
+    padding-left: 65px;
+    padding-bottom: 25px;
+    font-family: Cambria;
+    letter-spacing: 1.2px;
+    font-size:  20px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: Century Gothic;
+    font-size: 60px;
+    padding-left: 60px;
+    color: rgb(255, 170, 0);
+    letter-spacing: 2px;
+}
+.content h3{
+    font-family: Cambria;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 60px;
+}
+.content .bt{
+    width: 160px;
+    height: 35px;
+    background: orange;
+    border: none;
+    margin-left: 80px;
+    font-family: Century Gothic;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+.content .bt a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3 ease;
+}
+.bt:hover{
+   background-color: teal; 
+}
+
+/*****************************************************************about.html********************************************************************/
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    position: fixed;
+    top: 0;    
+}
+
+ul li{
+    display: inline-block;
+}
+/*navbar menu style*/
+ul li a{
+    text-decoration:underline;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease
+}
+/*point style*/
+ul li a:hover{
+    background-color:teal;
+    color: white;
+}
+/*home buttom active*/
+ul li.active a{
+    background-color: teal;
+    color: white;
+}
+/*part of navbar*/
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+body.about{
+    box-sizing: border-box;
+    background-color: rgba(255, 166, 0, 0.751);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpage{
+    background: url(images/green.nature.jpg)no-repeat, left;
+    background-size: 60%;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.about-section{
+    width: 55%;
+    float: right;
+    background-color:bisque;
+    padding: 100px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3  );
+}
+.about-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    font-family: Cambria;
+   }
+.about-par{
+    font-size: 13px;
+    color: black;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height:15px;
+}
+
+.skill button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: teal;
+    color:black;
+    cursor: pointer;
+}
+.skill button:hover{
+    transition: 1s;
+    background-color:white;
+    color: teal;
+}
+.about-footer{
+    background-color: transparent;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/***********************************events.html*********************************************************/
+body.event{
+    box-sizing: border-box;
+    background-color: rgba(255, 166, 0, 0.751);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eventpage{
+    background: url(images/hiking.jpg)no-repeat, left;
+    background-size: 60%;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.event-section{
+    width: 55%;
+    float: right;
+    background-color:bisque;
+    padding: 100px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3  );
+}
+.event-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    font-family: Cambria;
+   }
+.event-par{
+    font-size: 13px;
+    color: black;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height:15px;
+}
+
+
+.event-footer{
+    background-color: transparent;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/*******************************contact.html**********************************/
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),#ffaa00b4 ), url(images/relaxing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: black;
+    background: teal;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: teal;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+.row .input-group{
+    flex-basis: 48%;
+}
+
+.contact-footer{
+    background-color: transparent;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/********************************************events.html*********************************************************/
